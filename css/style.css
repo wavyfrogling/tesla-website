@@ -140,3 +140,42 @@ body {
   margin: -55px auto 0;
   max-width: 1220px;
 }
+
+/* Statistics */
+.statistics {
+  padding: 155px 0 100px;
+}
+.statistics-items {
+  margin-left: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.statistics-item {
+}
+.statistics-item__title {
+  margin-bottom: 13px;
+}
+
+.statistics-item_num {
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  margin-bottom: 30px;
+}
+
+.statistics-item-desc {
+  color: #b70021;
+}
+
+.statistics-item_num span {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.statistics-items:last-child::after {
+  content: "+";
+  position: relative;
+  right: 207px;
+  top: -50px;
+}
