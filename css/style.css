@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: #0b0b0b;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  height: 100vh;
+  position: absolute;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  padding-top: 36px;
+}
+.logo-link {
+}
+.logo-img {
+}
+.header-btn {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.header-btn span {
+  display: block;
+  width: 36px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-btn:hover span:nth-child(1) {
+  transform: translateY(3px) rotate(10deg);
+}
+
+.header-btn:hover span:nth-child(3) {
+  transform: translateY(-3px) rotate(-10deg);
+}
+
+.header-content {
+}
+.header-content__title {
+  margin-top: 29px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+}
+.header-content__text {
+  margin-top: 40px;
+  max-width: 284px;
+}
+.header-content__btn {
+  margin-top: 25px;
+
+  display: inline-block;
+  padding: 30px 62px;
+
+  font-weight: 700;
+  line-height: 28px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #ffffff;
+  transition: background 0.5s;
+}
+
+.header-content__btn:hover,
+.header-content__btn:active {
+  background: #770302;
+}
+
+.slider-item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider .slick-dots button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0b0b0b;
+  border: none;
+  padding: 0;
+  font-size: 0;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.slider .slick-dots .slick-active button {
+  background-color: #fff;
+}
+
+.slider .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slider .slick-dots {
+  position: relative;
+  z-index: 6;
+  margin: -55px auto 0;
+  max-width: 1220px;
+}
