@@ -262,3 +262,30 @@ body {
   max-width: 525px;
   padding-left: 75px;
 }
+
+/* Footer */
+.footer {
+  padding: 80px 0 20px;
+  background-color: #690102;
+}
+
+.main-btn--footer {
+  display: block;
+  width: max-content; /* Чтобы кнопка не растягивалась */
+  margin: 0 auto 80px;
+}
+
+.footer__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-weight: 700;
+}
+
+.footer__menu-item + .footer__menu-item::before {
+  content: "|";
+  margin-right: 10px;
+}
+.footer__menu-link {
+}
