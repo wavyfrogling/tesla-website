@@ -40,10 +40,7 @@ body {
 .logo {
   padding-top: 36px;
 }
-.logo-link {
-}
-.logo-img {
-}
+
 .header-btn {
   width: 60px;
   height: 60px;
@@ -75,8 +72,6 @@ body {
   transform: translateY(-3px) rotate(-10deg);
 }
 
-.header-content {
-}
 .header-content__title {
   margin-top: 29px;
 
@@ -152,8 +147,7 @@ body {
   justify-content: space-between;
   text-align: center;
 }
-.statistics-item {
-}
+
 .statistics-item__title {
   margin-bottom: 13px;
 }
@@ -182,15 +176,14 @@ body {
 
 /* Images */
 .images {
-  margin: 100px 0;
+  margin-bottom: 100px;
 }
 
 /* Advantages */
 .advantages {
   margin-bottom: 100px;
 }
-.advantages-inner {
-}
+
 .advantages-inner__row {
   display: flex;
   justify-content: space-between;
@@ -231,8 +224,6 @@ body {
 .advantages__img {
   height: 400px;
 }
-.advantages__list {
-}
 
 /* Design */
 .design {
@@ -271,7 +262,7 @@ body {
 
 .main-btn--footer {
   display: block;
-  width: max-content; /* Чтобы кнопка не растягивалась */
+  width: max-content; /* To prevent the button from stretching */
   margin: 0 auto 80px;
 }
 
@@ -286,6 +277,4 @@ body {
 .footer__menu-item + .footer__menu-item::before {
   content: "|";
   margin-right: 10px;
-}
-.footer__menu-link {
 }
