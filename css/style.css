@@ -87,7 +87,7 @@ body {
   margin-top: 40px;
   max-width: 284px;
 }
-.header-content__btn {
+.main-btn {
   margin-top: 25px;
 
   display: inline-block;
@@ -101,8 +101,8 @@ body {
   transition: background 0.5s;
 }
 
-.header-content__btn:hover,
-.header-content__btn:active {
+.main-btn:hover,
+.main-btn:active {
   background: #770302;
 }
 
