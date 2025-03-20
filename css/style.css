@@ -233,3 +233,32 @@ body {
 }
 .advantages__list {
 }
+
+/* Design */
+.design {
+  margin-bottom: 100px;
+}
+
+.design__image {
+  margin-bottom: 100px;
+}
+
+.design-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.design-row__item {
+  padding-right: 15px;
+  max-width: 555px;
+}
+
+.design-row__item-num {
+  color: #b70021;
+}
+
+.design-row__item-desc {
+  max-width: 525px;
+  padding-left: 75px;
+}
